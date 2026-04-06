@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siam Saroar| Home</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="pageBody" class="theme-blue">
+    <a class="skip-link" href="#mainContent">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-flex">
+            <div class="brand-block">
+                <p class="site-kicker">Personal Portfolio</p>
+                <h1>Siam Saroar</h1>
+                <p class="tagline">Aspiring Analyst interested in data, reporting, and automation</p>
+            </div>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="mainContent" class="container">
+        <section class="hero" aria-labelledby="heroTitle">
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Portrait of Siam Saroar" width="420" height="420">
+            </div>
+
+            <div class="hero-text">
+                <p class="eyebrow">Welcome to my site</p>
+                <h2 id="heroTitle">A simple portfolio that presents my goals and work</h2>
+                <p id="greeting">Welcome</p>
+                <p>
+                    This website introduces who I am, the kind of projects I enjoy, and how I approach clear and
+                    organized work. It uses only HTML, CSS, and JavaScript with relative links on every page.
+                </p>
+                <p>
+                    My focus is on creating useful digital work that is easy to understand, visually clean, and
+                    accessible across desktop, tablet, and mobile screens.
+                </p>
+
+                <div class="action-row">
+                    <button id="notifyButton" type="button">Show Welcome Notification</button>
+                    <a class="button-link" href="projects.html">Explore Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="theme-section" aria-labelledby="themeHeading">
+            <h2 id="themeHeading">Choose a Colour Theme</h2>
+            <p>These buttons use JavaScript to change the appearance of the page without reloading it.</p>
+
+            <div class="theme-buttons">
+                <button id="blueThemeButton" type="button">Blue Theme</button>
+                <button id="lightThemeButton" type="button">Light Theme</button>
+                <button id="darkThemeButton" type="button">Dark Theme</button>
+            </div>
+        </section>
+
+        <section class="highlights" aria-labelledby="highlightsHeading">
+            <h2 id="highlightsHeading">What this website includes</h2>
+            <ul class="feature-list">
+                <li>Responsive design for desktop, tablet, and mobile screens</li>
+                <li>JavaScript interactions such as a greeting, notification, and form feedback</li>
+                <li>Accessible navigation, alt text, focus styles, and readable colour contrast</li>
+            </ul>
+        </section>
+
+        <section class="projects-preview" aria-labelledby="featuredProjectsHeading">
+            <h2 id="featuredProjectsHeading">Featured Projects</h2>
+
+            <div class="card-grid two-column-grid">
+                <article class="card">
+                    <img src="assets/images/project1.jpg" alt="Dashboard reporting screen" width="640" height="400">
+                    <h3>Dashboard Reporting</h3>
+                    <p>
+                        A project centered on turning information into clear summaries so users can understand trends,
+                        performance, and outcomes quickly.
+                    </p>
+                    <a class="button-link" href="projects.html">View Details</a>
+                </article>
+
+                <article class="card">
+                    <img src="assets/images/project2.jpg" alt="Automation workflow" width="640" height="400">
+                    <h3>Process Automation</h3>
+                    <p>
+                        A project idea focused on making repeated work faster and more consistent by improving the way a
+                        process is organized.
+                    </p>
+                    <a class="button-link" href="projects.html">Read More</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>&copy; 2026 Siam Saroar</p>
+            <p><a href="contact.html">Contact me</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siam Saroar | Projects</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="pageBody" class="theme-blue">
+    <a class="skip-link" href="#mainContent">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-flex">
+            <div class="brand-block">
+                <p class="site-kicker">Personal Portfolio</p>
+                <h1>Projects</h1>
+                <p class="tagline">Examples of work I would like to highlight</p>
+            </div>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html" aria-current="page">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="mainContent" class="container">
+        <section aria-labelledby="projectOverviewHeading">
+            <h2 id="projectOverviewHeading">Portfolio Project Overview</h2>
+            <p>
+                These examples show the type of work I want to include in a professional portfolio. The page includes
+                cards, lists, a table, a gallery, and JavaScript interaction.
+            </p>
+        </section>
+
+        <section class="card-grid two-column-grid" aria-label="Project cards">
+            <article class="card">
+                <img src="assets/images/project1.jpg" alt="Dashboard reporting project preview" width="640" height="400">
+                <h3>Dashboard Reporting</h3>
+                <p>
+                    This project focuses on presenting information in a clean and direct way so that users can make
+                    decisions more quickly.
+                </p>
+                <ul>
+                    <li>Clear structure</li>
+                    <li>Easy summaries</li>
+                    <li>Decision support</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <img src="assets/images/project2.jpg" alt="Process automation project preview" width="640" height="400">
+                <h3>Process Automation</h3>
+                <p>
+                    This project demonstrates how repeated tasks can be simplified through better steps and cleaner
+                    workflow design.
+                </p>
+                <ol>
+                    <li>Identify the repeated task</li>
+                    <li>Map the process clearly</li>
+                    <li>Improve and automate the workflow</li>
+                </ol>
+            </article>
+        </section>
+
+        <section class="table-section" aria-labelledby="tableHeading">
+            <h2 id="tableHeading">Project Comparison Table</h2>
+            <p>The table below compares two portfolio project ideas and the main value of each one.</p>
+
+            <div class="table-wrapper">
+                <table>
+                    <caption>Summary of portfolio project ideas</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Project</th>
+                            <th scope="col">Main Goal</th>
+                            <th scope="col">Key Skill</th>
+                            <th scope="col">Outcome</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Dashboard Reporting</th>
+                            <td>Present information clearly</td>
+                            <td>Data organization</td>
+                            <td>Faster understanding of trends</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Process Automation</th>
+                            <td>Reduce repeated manual steps</td>
+                            <td>Workflow improvement</td>
+                            <td>Better efficiency and consistency</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Portfolio Website</th>
+                            <td>Show skills professionally</td>
+                            <td>Web design basics</td>
+                            <td>Stronger online presentation</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="gallery-section" aria-labelledby="galleryHeading">
+            <h2 id="galleryHeading">Photo Gallery</h2>
+            <p>This gallery adds visual variety and demonstrates a responsive grid layout.</p>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="assets/images/team.jpg" alt="Illustration representing teamwork and collaboration" width="700" height="420">
+                    <figcaption>Team collaboration</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="assets/images/report.jpg" alt="Illustration representing reports and presentation design" width="700" height="420">
+                    <figcaption>Clear report design</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="assets/images/growth.jpg" alt="Illustration representing growth and improvement" width="700" height="420">
+                    <figcaption>Growth and improvement</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="interaction-box" aria-labelledby="checkerHeading">
+            <h2 id="checkerHeading">Interactive Project Interest Checker</h2>
+            <p>Type a project topic below and click the button to see a custom JavaScript response.</p>
+
+            <label for="topicInput">Project topic</label>
+            <input type="text" id="topicInput" name="topicInput" placeholder="Example: automation">
+            <button id="topicButton" type="button">Check Topic</button>
+
+            <p id="topicResult" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>&copy; 2026 Siam Saroar</p>
+            <p><a href="contact.html">Contact me</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

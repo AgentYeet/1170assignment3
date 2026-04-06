@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siam Saroar | Contact</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="pageBody" class="theme-blue">
+    <a class="skip-link" href="#mainContent">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-flex">
+            <div class="brand-block">
+                <p class="site-kicker">Personal Portfolio</p>
+                <h1>Contact</h1>
+                <p class="tagline">Get in touch with me</p>
+            </div>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="mainContent" class="container">
+        <section class="contact-layout" aria-label="Contact content">
+            <div>
+                <h2>Contact Form</h2>
+                <p>
+                    This form uses a JavaScript event handler. It checks whether a name is entered and then shows a
+                    response without reloading the page.
+                </p>
+
+                <form id="contactForm" action="#" method="get" novalidate>
+                    <div class="form-group">
+                        <label for="userName">Name</label>
+                        <input type="text" id="userName" name="userName" autocomplete="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userEmail">Email</label>
+                        <input type="email" id="userEmail" name="userEmail" autocomplete="email" placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userReason">Reason for contact</label>
+                        <select id="userReason" name="userReason">
+                            <option value="">Choose one option</option>
+                            <option value="networking">Networking</option>
+                            <option value="project">Project discussion</option>
+                            <option value="general">General question</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userMessage">Message</label>
+                        <textarea id="userMessage" name="userMessage" rows="6" cols="30" placeholder="Write your message here"></textarea>
+                    </div>
+
+                    <button id="contactButton" type="submit">Send Message</button>
+                </form>
+
+                <p id="formResponse" aria-live="polite"></p>
+            </div>
+
+            <aside class="contact-details" aria-labelledby="contactDetailsHeading">
+                <h2 id="contactDetailsHeading">Contact Details</h2>
+                <p>You can also use the links below to continue exploring the website.</p>
+                <ul>
+                    <li><a href="index.html">Return to Home</a></li>
+                    <li><a href="projects.html">View Projects</a></li>
+                </ul>
+
+                <h3>Availability</h3>
+                <p>I am open to discussing internships, learning opportunities, and beginner analyst roles.</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>&copy; 2026 Siam Saroar</p>
+            <p><a href="index.html">Back to Home</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
